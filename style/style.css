@@ -1,0 +1,61 @@
+/*
+reviews easy 
+v.1.0.2
+*/
+
+
+#reviews {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    padding: 25px 0 25px 0;
+    text-align: left
+}
+#reviews .caption {
+    margin: 2em 0;
+    min-height: 100px;
+    padding-right: 2em;
+}
+#reviews .media-left {
+    width: 48px;
+    float:left;
+    margin-right: 10px;
+}
+#reviews img.img-circle {
+    border-radius: 25px;
+}
+#reviews .media img.media-object {
+    width: 48px;
+}
+#reviews .media-body {
+    font-size: 15px;
+}
+#reviews .caption {
+    font-size: 13px;
+}
+#reviews h2, #reviews h3 {text-align: center}
+
+#reviews.scheme-dark {color: #fff;background-color:#111;}
+#reviews.scheme-dark .caption,#reviews.scheme-dark h2,#reviews.scheme-dark h3,
+#reviews.scheme-dark .caption p,#reviews.scheme-dark .caption a{
+    color: #fff;
+}
+
+#reviews.scheme-light {color: #000;background-color:#eee;}
+#reviews.scheme-light .caption,#reviews.scheme-light h2,#reviews.scheme-light h3,
+#reviews.scheme-light .caption p,#reviews.scheme-light .caption a{
+    color: #000;
+}
+
+#reviews.scheme-default { color: inherit; background:transparent; }
+#reviews.scheme-default { padding: 0 }
+#reviews.scheme-default .caption,#reviews.scheme-default h2,#reviews.scheme-default h3,
+#reviews.scheme-default .caption p,#reviews.scheme-default .caption a {
+    color: inherit;
+}
+#reviews.scheme-default h2,#reviews.scheme-default h3 {
+    text-align: left;
+    padding:0;
+}
